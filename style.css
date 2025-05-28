@@ -105,6 +105,7 @@ footer {
 .Contact-Container, .Form-Container {
     flex: 1;
     min-width: 300px;
+    margin-top: 20vh;
 }
 
 .Contact-Container {
@@ -120,7 +121,19 @@ footer {
     margin-left: 5vw;
 }
 
-.Form-Container input {
+.Contact-Left-Side{
+    font-family: 'ALK Rounded';
+}
+
+iframe{
+    border-radius: 2vh;
+    margin-top: 2vh;
+    max-height: 20vh;
+}
+
+.Form-Container input[type="text"],
+.Form-Container input[type="email"],
+.Form-Container input[type="tel"] {
     padding: 1vh;
     border: none;
     background: transparent;
@@ -129,11 +142,16 @@ footer {
     max-width: 450px;
 }
 
-.Contact-Left-Side{
-    font-family: 'ALK Rounded';
-}
-
-iframe{
-    border-radius: 2vh;
-    max-height: 20vh;
+.Form-Container input[type="submit"],
+.Submit {
+    margin-left: 20vw;
+    color: black;
+    background-color: white;
+    border-radius: 3vh;
+    padding: 2vh 2vw;
+    font-weight: bold;
+    max-width: 10vw;
+    outline: none;
+    box-shadow: none;
+    border: none;
 }
