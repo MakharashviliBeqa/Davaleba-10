@@ -37,6 +37,7 @@ header{
     list-style-type: none;
     display: flex;
     gap: 2vw;
+    font-family: "ALK Rounded";
 }
 
 .Main-Img-Container {
@@ -58,6 +59,7 @@ header{
     font-weight: bold;
     margin-top: -0.2vh;
     font-size: 25px;
+    font-family: 'ALK Rounded';
 }
 
 .Section-Img-Container{
@@ -74,6 +76,7 @@ section p{
     text-align: left;
     margin: 20px auto;
     max-width: 800px;
+    font-family: "ALK Rounded";
 }
 
 .Extra-Information{
@@ -81,9 +84,30 @@ section p{
     justify-content: center;
     align-items: center;
     background-color: blue;
+    border-radius: 3vh;
     color: white;
     width: 13vw;
     height: 4vh;
-    margin: 40px auto;
-    border-radius: 3vh;
+    margin: 5vh auto 15vh auto;
+    font-family: "ALK Rounded";
+}
+
+footer{
+    background-color: blue;
+}
+
+.Contact-Left-Side{
+    color: white;
+    font-family: 'ALK Rounded';
+}
+
+iframe{
+    border-radius: 2vh;
+    height: 20vh;
+    box-shadow: -5px 5px 15px rgba(255, 255, 255, 0.5);
+    margin-top: 5vh;
+}
+
+.Contact-Left-Side, iframe{
+    margin-left: 10vw;
 }
