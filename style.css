@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: blue ;
+    height: 40vh;
+}
+
+.logo{
+    color:white;
+    margin-left: 10vw;
+}
+
+.nav-container{
+    padding-top: 3vh;
+    display: flex;
+    gap: 38vw;
+}
+
+.nav-container a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.Contact {
+    color: black !important;
+    background-color: white;
+    border-radius: 3vh;
+    padding: 2vh 2vw;
+    font-weight: bold;
+}
+
+.nav-container ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2vw;
+}
+
+.Main-Img-Container{
+    display: flex;
+    justify-content: center;
+    margin-top: -15vh;
+}
