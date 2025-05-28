@@ -10,7 +10,7 @@ header{
 
 .logo{
     color:white;
-    margin-left: 10vw;
+    margin-left: 13vw;
 }
 
 .nav-container{
@@ -92,22 +92,48 @@ section p{
     font-family: "ALK Rounded";
 }
 
-footer{
+footer {
+    display: flex;
     background-color: blue;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2vh 5vw;
+    gap: 4vw;
+    color: white;
+}
+
+.Contact-Container, .Form-Container {
+    flex: 1;
+    min-width: 300px;
+}
+
+.Contact-Container {
+    margin-right: 2vw;
+}
+
+.Form-Container input,
+.Form-Container label {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5vh;
+    color: white;
+    margin-left: 5vw;
+}
+
+.Form-Container input {
+    padding: 1vh;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+    max-width: 450px;
 }
 
 .Contact-Left-Side{
-    color: white;
     font-family: 'ALK Rounded';
 }
 
 iframe{
     border-radius: 2vh;
-    height: 20vh;
-    box-shadow: -5px 5px 15px rgba(255, 255, 255, 0.5);
-    margin-top: 5vh;
-}
-
-.Contact-Left-Side, iframe{
-    margin-left: 10vw;
+    max-height: 20vh;
 }
