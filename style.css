@@ -13,6 +13,10 @@ header{
     margin-left: 13vw;
 }
 
+.mobile-text{
+    display: none;
+}
+
 .nav-container{
     padding-top: 3vh;
     display: flex;
@@ -69,6 +73,10 @@ header{
     margin: 1.5vh auto 0 auto;
     max-width: 1000px;
     width: 100%;
+}
+
+.Mobile-Section-Img-Container{
+    display: none;
 }
 
 section p{
@@ -154,4 +162,134 @@ iframe{
     outline: none;
     box-shadow: none;
     border: none;
+}
+@media (min-width: 0px) and (max-width: 1024px) {
+    html,body{
+        overflow-x: hidden;
+    }
+
+    body {
+        background: #f0f0f0;
+        font-family: 'ALK Rounded', sans-serif;
+    }
+
+    header {
+        background: blue;
+        padding: 10vw;
+        margin-top: -40vw;
+        max-width: 1024px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .logo{
+        margin-right: 32vw;
+        margin-top: 13vh;
+    }
+
+    .nav-container ul{
+        display: none;
+    }
+
+    .Main-Img-Container{
+        margin-top: -5vh;
+        display: flex;
+        justify-content: center;
+        max-width: 87vw;
+        margin-right: 6.5vw;
+        flex-direction: column;
+    }
+
+    .Main-Img-Container img{
+        border-radius: 20px;
+    }
+
+    .Section-Img-Container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3vw;
+        padding: 2vw;
+    }
+
+    .Section-Img-Container img {
+        display: none;
+    }
+
+    .Mobile-Section-Img-Container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3vw;
+        padding: 2vw;
+        margin-left: 5vw;
+    }
+
+    .Mobile-Section-Img-Container img{
+        width: 40vw;
+        max-height: 13vh;
+        border-radius: 10px;
+    }
+
+    .mobile-text {
+        display: block;
+        text-align: center;
+        margin: 4vh auto 0 auto;
+    }
+
+    .Desktop-text{
+        display: none;
+    }
+
+    .Extra-Information{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        border-radius: 3vh;
+        color: white;
+        width: 80vw;
+        height: 6vh;
+        margin: 5vh auto 15vh auto;
+        font-family: "ALK Rounded";
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .Contact-Container, .Form-Container {
+        margin-top: 0;
+        width: 80vw;
+        min-width: auto;
+        margin-right: 15vw;
+    }
+
+    .Contact-Container p{
+        display: none;
+    }
+
+    .Form-Container input[type="submit"] {
+        max-width: 80vw ;
+        margin-left: 7vw;
+    }
+
+    .Desktop-Contact{
+        display: none;
+    }
+
+    .Mobile-Contact{
+        font-size:  18px;
+        padding-bottom: 5vh;
+        font-weight: bold;
+        margin-left: 5vw;
+    }
 }
