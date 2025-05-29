@@ -20,7 +20,7 @@ header{
 .nav-container{
     padding-top: 3vh;
     display: flex;
-    gap: 32vw;
+    gap: 25vw;
 }
 
 .nav-container a{
@@ -108,6 +108,10 @@ footer {
     padding: 2vh 5vw;
     gap: 4vw;
     color: white;
+}
+
+.Mobile-Contact{
+    display: none;
 }
 
 .Contact-Container, .Form-Container {
